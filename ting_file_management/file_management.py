@@ -4,7 +4,7 @@ import sys
 
 def txt_importer(path_file):
     if '.txt' not in path_file:
-        print(f"Formato inválido", file=sys.stderr)
+        print("Formato inválido", file=sys.stderr)
         return None
 
     if not exists(path_file):
