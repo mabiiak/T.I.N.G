@@ -20,4 +20,3 @@ class Queue:
             raise IndexError
 
         return data[index]
-
