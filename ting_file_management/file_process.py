@@ -30,7 +30,11 @@ def remove(instance):
         sys.stdout.write(str(f"Arquivo {remove} removido com sucesso\n"))
 
 
-
-
 def file_metadata(instance, position):
-    """Aqui irá sua implementação"""
+    tamanho = instance.__len__()
+
+    if position > tamanho or position < 0:
+        print("Posição inválida", file=sys.stderr)
+    else:
+        item = instance.search(position)
+        sys.stdout.write(str(item))
