@@ -2,7 +2,7 @@
 
 Este é um projeto que foi desenvolvido durante o curso de Desenvolvimento Web na Trybe.
 
-## Funcções
+## Funções
 
 Neste projeto foi implementado um programa que simula um algoritmo de indexação de documentos similar ao do Google. Seu programa deverá ser capaz de identificar ocorrências de termos em arquivos _TXT_.
 
